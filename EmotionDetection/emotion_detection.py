@@ -1,8 +1,7 @@
 import requests
 import json
 
-message= "I love this new technology"
-print (message)
+
 
 def emotion_detector(text_to_analyze):
     URL = 'https://sn-watson-emotion.labs.skills.network/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict'
